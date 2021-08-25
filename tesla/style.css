@@ -1,0 +1,206 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container_pagina_intera
+{
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+#home, #pagina1, #pagina2, #pagina3
+{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(./immagini/0x0-Model_Y_05.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    scroll-snap-align: start;
+}
+
+
+/*HEADER*/
+.pre-header
+{
+    width: 100%;
+    height: 60px;
+    position: fixed
+    /* background-color: brown; */
+}
+
+.header
+{
+    width: 90%;
+    margin: 0 auto;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-tesla
+{
+    width: 120px;
+}
+
+.container1-menu 
+{
+    width: 550px;
+    /* background-color: rgb(54, 91, 112); */
+}
+
+.container1-menu ul, .container2-menu ul
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container2-menu 
+{
+    width: 220px;
+    /* background-color: rgb(173, 173, 233); */
+}
+
+
+.link
+{
+    color: #393c41;
+    text-decoration: none;
+    
+}
+
+
+
+.modelli
+{
+    display: inline;
+    padding: 10px;
+    /* border: 1px black solid; */
+    color: #393c41;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 10px;
+    /* text-decoration: none; */
+    
+}
+
+.modelli:hover
+{
+    background-color: #dae7ee;
+}
+
+
+/*HEADER END*/
+
+
+/*MAIN CONTENT*/
+.mainContent
+{
+    margin-top: 50px;
+    width: 100%;
+    height: 70vh;
+    /* background-color: rgba(165, 42, 42, 0.219); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.model
+{
+    color: #393c41c4;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.bottoni
+{
+    display: flex;
+    width: 650px;
+    height: 85px;
+    /* background-color: chocolate; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottone1, .bottone2
+{
+    border-radius: 25px;
+    height: 40px;
+    width: 300px;
+    background-color: #3f4145;
+    border: none;
+    color: #f0efee;
+    font-weight: 500;
+}
+
+.bottone2
+{
+    background-color: #f0efee;
+    color: #3f4145;
+}
+
+.contenitore-main
+{
+    width: 650px;
+    height: 70vh;
+    /* background-color: rgba(0, 0, 255, 0.212); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+/*MAIN CONTENT END*/
+
+
+/*FOOTER*/
+.footer
+{
+    width: 100%;
+    height: auto;
+    /* background-color: rgba(0, 255, 255, 0.698); */
+    display: flex;
+    justify-content: space-around;
+    /* margin-top: 5vh; */
+}
+
+.icon
+{
+    width: 30px;
+    /* background-color: rgba(163, 36, 36, 0.185); */
+}
+
+/*FOOTER END*/
+
+
+
+
+
+
+
+
+
+/*CSS pagina 1 e 2 in home*/
+#pagina1
+{
+    background-image: url(./immagini/0x0-Model3_06.jpg);
+}
+
+#pagina2
+{
+    background-image: url(./immagini/0x0-ModelS_02.jpg);
+}
+
+#pagina3
+{
+    background-image: url(./immagini/0x0-ModelX_06.jpg);
+}
