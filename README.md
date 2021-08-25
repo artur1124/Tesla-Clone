@@ -15,3 +15,11 @@ This is the original website:
 
 
 That's mine: 
+
+![Screenshot 2021-08-25 at 22-44-40 Tesla Clone](https://user-images.githubusercontent.com/61736221/130863628-aaef9069-7f95-4655-86b8-284be5f22d37.png)
+
+![Screenshot 2021-08-25 at 22-44-56 Tesla Clone](https://user-images.githubusercontent.com/61736221/130863637-9038596f-0626-4d2e-92b3-8273a8f227bf.png)
+
+For the model S I wasn't able to find the right image :)
+![Screenshot 2021-08-25 at 22-57-06 Tesla Clone](https://user-images.githubusercontent.com/61736221/130863657-44de9bfe-c5f4-4b85-bad4-53a5d109336a.png)
+
